@@ -1,2 +1,36 @@
 
-/* Your CSS Code here. */
+/* Your CSS Code here. */<style>
+  /* Additional custom styling */
+  body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+  }
+
+  .container {
+    max-width: 600px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  h2 {
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  .form-check-input.is-invalid ~ .form-check-label {
+    color: #dc3545;
+  }
+
+  /* Custom style for invalid feedback */
+  .invalid-feedback {
+    color: #dc3545;
+    font-size: 14px;
+  }
+</style>
